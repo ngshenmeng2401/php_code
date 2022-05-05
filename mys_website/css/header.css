@@ -1,0 +1,28 @@
+.logoimg{
+
+    width: 50px;
+    height: 50px;
+}
+
+.profileimg{
+    width: 50px;
+    height: 50px;
+}
+
+.submit-btn{
+
+    background: #693D70;
+}
+
+.submit-btn:hover{
+
+    background: #8c6393;
+}
+
+.dropdown-item:hover{
+    background-color: #b39bb6;
+}
+
+.dropdown-item.active{
+    background-color:#693D70;
+}

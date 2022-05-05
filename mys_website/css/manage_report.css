@@ -1,0 +1,19 @@
+.userlist-btn{
+
+    background: #6e4275;
+}
+
+.userlist-btn:hover{
+
+    background: #8c6393;
+}
+
+.reset-btn{
+    border-color: #8266ac;
+    color: #8266ac;
+}
+
+.reset-btn:hover{
+    background: #8266ac;
+    border-color: #ad91d7;
+}
