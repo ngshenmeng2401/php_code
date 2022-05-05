@@ -1,0 +1,21 @@
+[18-Apr-2022 15:24:46 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home8/javathre/public_html/s271059/mys_website/php/PHPMailer/PHPMailer.php:2142
+Stack trace:
+#0 /home8/javathre/public_html/s271059/mys_website/php/PHPMailer/PHPMailer.php(1953): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home8/javathre/public_html/s271059/mys_website/php/PHPMailer/PHPMailer.php(1635): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Mon, 18 A...', '<p>Click the fo...')
+#2 /home8/javathre/public_html/s271059/mys_website/php/PHPMailer/PHPMailer.php(1468): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home8/javathre/public_html/s271059/mys_website/php/signup.php(77): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home8/javathre/public_html/s271059/mys_website/php/signup.php(43): sendEmail('assignmentneed4...', 110232)
+#5 {main}
+  thrown in /home8/javathre/public_html/s271059/mys_website/php/PHPMailer/PHPMailer.php on line 2142
+[18-Apr-2022 15:45:30 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught Error: Call to undefined function random_password() in /home8/javathre/public_html/s271059/mys_website/php/login.php:43
+Stack trace:
+#0 {main}
+  thrown in /home8/javathre/public_html/s271059/mys_website/php/login.php on line 43
+[18-Apr-2022 15:56:14 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home8/javathre/public_html/s271059/mys_website/php/login.php:50
+Stack trace:
+#0 {main}
+  thrown in /home8/javathre/public_html/s271059/mys_website/php/login.php on line 50
+[18-Apr-2022 22:21:41 Asia/Kuala_Lumpur] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home8/javathre/public_html/s271059/mys_website/php/login.php:50
+Stack trace:
+#0 {main}
+  thrown in /home8/javathre/public_html/s271059/mys_website/php/login.php on line 50
